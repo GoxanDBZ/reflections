@@ -1,0 +1,9 @@
+WHAT HAPPENS WHEN YOU INITIALIZE A REPOSITORY? WHY DO YOU NEED TO DO IT?
+
+A new hidden folder named ".git" has been created. It will store all the meta-data of project's
+different states.
+--------------------------------------------------------------------------------------------------------
+HOW IS THE STAGING AREA DIFFERENT FROM THE WORKING DIRECTORY AND THE REPOSITORY? WHAT VALUE DO YOU THINK IT OFFERS?
+
+Files that are ready to be commited are being put in the "staging area". If by any chance, user changes his/hers mind
+it can remove them from there rather than immediately commit the changes.
