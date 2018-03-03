@@ -1,0 +1,43 @@
+HOW DID VIEWING A DIFF BETWEEN TWO VERSIONS OF A FILE HELP YOU SEE THE BUG THAT WAS INTRODUCED?
+
+By comparing two different files with FC(file change) command,
+it was really easy to find where the typo in code was.
+The reason why it was easy is because only lines of code that were
+changed are being compared.
+--------------------------------------------------------------------------------------------------------
+HOW COULD HAVING EASY ACCESS TO THE ENTIRE HISTORY OF A FILE MAKE YOU A MORE EFFICIENT PROGRAMMER IN THE LONG TERM?
+
+By being able to access all the previous versions of a file with easy, programmer can save
+a lot of time if he wants to look for a different changes in a file, especially
+when during time there will possibly be more and more changes to the existing file.
+--------------------------------------------------------------------------------------------------------
+WHAT DO YOU THINK ARE THE PROS AND CONS OF MANUALLY CHOOSING WHEN TO CREATE A COMMIT, 
+LIKE YOU DO IN GIT, VS HAVING VERSIONS AUTOMATICALLY SAVED, LIKE GOOGLE DOCS DOES?
+
+PROS
+1) Having a freedom to decide when do you want to save the change.
+2) High probability of saving just right amount of changes.
+
+CONS
+1) Possibility of doing too many unnecesarry saves and therefor having too much commits.
+2) Could be harder to navigate through changes due to having too much of them saved.
+--------------------------------------------------------------------------------------------------------
+WHY DO YOU THINK SOME VERSION CONTROL SYSTEMS, LIKE GIT, ALLOW SAVING MULTIPLE FILES IN ONE COMMIT, 
+WHILE OTHERS, LIKE GOOGLE DOCS, TREAT EACH FILE SEPARATELY?
+
+They allow it because it is a high possibility that within even a smaller project could be
+a lot of filles that affect each other.
+--------------------------------------------------------------------------------------------------------
+HOW CAN YOU USE THE COMMANDS GIT LOG AND GIT DIFF TO VIEW THE HISTORY OF FILES?
+
+With "git log" command we can display a current history of commits. When we find commits that we
+want to compare, we type "git diff <first ID> <second ID>" 
+--------------------------------------------------------------------------------------------------------
+HOW MIGHT USING VERSION CONTROL MAKE YOU MORE CONFIDENT TO MAKE CHANGES THAT COULD BREAK SOMETHING?
+
+With a command "git checkout <some ID>" we can return to any previous commit we made, and therefor
+easier search for a bug in the code. We can always return to the most recent commit as well.
+--------------------------------------------------------------------------------------------------------
+NOW THAT YOU HAVE YOUR WORKSPACE SET UP, WHAT DO YOU WANT TO TRY USING GIT FOR?
+
+For easier management of my projects.
