@@ -7,3 +7,28 @@ HOW IS THE STAGING AREA DIFFERENT FROM THE WORKING DIRECTORY AND THE REPOSITORY?
 
 Files that are ready to be commited are being put in the "staging area". If by any chance, user changes his/hers mind
 it can remove them from there rather than immediately commit the changes.
+--------------------------------------------------------------------------------------------------------
+HOW CAN YOU USE THE STAGING AREA TO MAKE SURE YOU HAVE ONE COMMIT PER LOGICAL CHANGE?
+
+It allows the comparison between itself and the working directory and also between itself and the latest commit.
+--------------------------------------------------------------------------------------------------------
+WHAT ARE SOME SITUATIONS WHEN BRANCHES WOULD BE HELPFUL IN KEEPING YOUR HISTORY ORGANIZED? HOW WOULD BRANCHES HELP?
+
+They could be useful if we decide to experiment with a new feature of te application,
+but keep the main functions unchanged.
+--------------------------------------------------------------------------------------------------------
+HOW DO THE DIAGRAMS HELP YOU VISUALIZE THE BRANCH STRUCTURE?
+
+They can tell us at which place new branch was created.
+--------------------------------------------------------------------------------------------------------
+WHAT IS THE RESULT OF MERGING TWO BRANCHES TOGETHER? WHY DO WE REPRESENT IT IN THE DIAGRAM THE WAY WE DO?
+
+The result is that the version of a code from the "coins" branch was merged in to the "master" branch,
+hence having the complete result. It is being represented with a diagram because before merging,
+the "coins" branch was a separate branch which contained it's own history from the point it
+branched from the "master" branch.
+
+WHAT ARE THE PROS AND CONS OF GIT’S AUTOMATIC MERGING VS. ALWAYS DOING MERGES MANUALLY?
+
+PROS: It can detect conflicts between 2 commits.
+CONS: Even a slighthes difference such as empty character could be detected as a potential conflict.
