@@ -27,7 +27,7 @@ The result is that the version of a code from the "coins" branch was merged in t
 hence having the complete result. It is being represented with a diagram because before merging,
 the "coins" branch was a separate branch which contained it's own history from the point it
 branched from the "master" branch.
-
+--------------------------------------------------------------------------------------------------------
 WHAT ARE THE PROS AND CONS OF GIT’S AUTOMATIC MERGING VS. ALWAYS DOING MERGES MANUALLY?
 
 PROS: It can detect conflicts between 2 commits.
