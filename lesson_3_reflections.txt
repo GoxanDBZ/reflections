@@ -5,3 +5,12 @@ When I'm sattisfied enough with my project and I want to share it online.
 WHY MIGHT YOU WANT TO ALWAYS PULL CHANGES MANUALLY RATHER THAN HAVING GIT AUTOMATICALLY STAY UP-TO-DATE WITH YOUR REMOTE REPOSITORY?
 
 Because I would like to pull only those changes that I think are required for my project.
+--------------------------------------------------------------------------------------------------------
+DESCRIBE THE DIFFERENCES BETWEEN FORKS, CLONES, AND BRANCHES. WHEN WOULD YOU USE ONE INSTEAD OF ANOTHER?
+
+FORKS: GitHub feature which is used when somebody wats to add his/hers own contribution to someone else's work,
+       but in the manner that the work from original autor is still preserved.
+CLONES: Feature used to clone a remote repository from GitHub to our own machine.
+BRANCHES: Added mostly locally in order to introduce a new feature to a certain project, 
+          but keep the main part of the work unchaged.
+--------------------------------------------------------------------------------------------------------
