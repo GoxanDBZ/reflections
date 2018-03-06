@@ -18,3 +18,9 @@ WHAT IS THE BENEFIT OF HAVING A COPY OF THE LAST KNOWN STATE OF THE REMOTE STORE
 
 It can be checked, modified, compared or even merged with a local commit if needed,
 and all of that while being offline.
+--------------------------------------------------------------------------------------------------------
+HOW WOULD YOU COLLABORATE WITHOUT USING GIT OR GITHUB? WHAT WOULD BE EASIER, AND WHAT WOULD BE HARDER?
+
+I would most likely use either some other cloud based system, or my e-mail. That way would maybe easier
+with a lot less options and things to worry about, but on the other hand, maybe harder due to lack
+of some useful features that Git provides.
