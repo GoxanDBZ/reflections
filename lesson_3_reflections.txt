@@ -14,3 +14,7 @@ CLONES: Feature used to clone a remote repository from GitHub to our own machine
 BRANCHES: Added mostly locally in order to introduce a new feature to a certain project, 
           but keep the main part of the work unchaged.
 --------------------------------------------------------------------------------------------------------
+WHAT IS THE BENEFIT OF HAVING A COPY OF THE LAST KNOWN STATE OF THE REMOTE STORED LOCALLY?
+
+It can be checked, modified, compared or even merged with a local commit if needed,
+and all of that while being offline.
