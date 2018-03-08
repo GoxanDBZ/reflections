@@ -24,3 +24,12 @@ HOW WOULD YOU COLLABORATE WITHOUT USING GIT OR GITHUB? WHAT WOULD BE EASIER, AND
 I would most likely use either some other cloud based system, or my e-mail. That way would maybe easier
 with a lot less options and things to worry about, but on the other hand, maybe harder due to lack
 of some useful features that Git provides.
+--------------------------------------------------------------------------------------------------------
+WHEN WOULD YOU WANT TO MAKE CHANGES IN A SEPARATE BRANCH RATHER THAN DIRECTLY IN MASTER? WHAT BENEFITS DOES EACH APPROACH HAVE?
+
+I would want to make changes in a separate branch when I think of a possible new feature,
+for which I'd need to hear some thoughts about.
+Working directly in master is a lot more straight forward, but when working within a sepparate branch
+it's easier to focus on a speciffic new part of the application, without having to worry about
+messing up a main master branch. Also, we could create a pull requests which notifies our collaborators about
+changes we wanted to make. 
