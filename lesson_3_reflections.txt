@@ -32,4 +32,6 @@ for which I'd need to hear some thoughts about.
 Working directly in master is a lot more straight forward, but when working within a sepparate branch
 it's easier to focus on a speciffic new part of the application, without having to worry about
 messing up a main master branch. Also, we could create a pull requests which notifies our collaborators about
-changes we wanted to make. 
+changes we wanted to make.
+--------------------------------------------------------------------------------------------------------
+ 
